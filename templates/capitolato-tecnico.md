@@ -2,7 +2,7 @@
 
 **Ente Appaltante:** {{ente_appaltante}}  
 **Codice Gara:** {{codice_gara}}  
-**Data pubblicazione:** {{data_pubblicazione}}
+**Data pubblicazione:** {{date:data_pubblicazione}}
 
 ---
 
