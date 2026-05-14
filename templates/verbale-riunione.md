@@ -5,7 +5,7 @@
 **Orario:** {{ora_inizio}} – {{ora_fine}}  
 **Luogo / Piattaforma:** {{luogo}}  
 **Verbalizzatore:** {{verbalizzatore}}
-
+prova
 ---
 
 ## 1. Partecipanti
