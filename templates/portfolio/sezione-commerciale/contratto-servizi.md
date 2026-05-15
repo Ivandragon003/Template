@@ -1,7 +1,7 @@
 # Contratto di Servizi Professionali
 
 **N. Contratto:** `{{numero_contratto}}`  
-**Data:** `{{data_stipula}}`
+**Data:** `{{date:data_stipula}}`
 
 ---
 
@@ -11,7 +11,7 @@
 
 | Campo            | Valore                      |
 | ---------------- | --------------------------- |
-| Ragione Sociale  | {{ragione_sociale_cliente}} |
+| Ragione Sociale  | {{integer:ragione_sociale_cliente}} |
 | Partita IVA      | {{partita_iva_cliente}}     |
 | Indirizzo Legale | {{indirizzo_cliente}}       |
 | Referente        | {{referente_cliente}}       |
