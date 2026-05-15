@@ -1,7 +1,7 @@
 # Contratto di Servizi Professionali
 
 **N. Contratto:** `{{numero_contratto}}`  
-**Data:** `{{data_stipula}}`
+**Data:** `{{date:data_stipula}}`
 
 ---
 
