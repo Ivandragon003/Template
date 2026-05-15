@@ -11,7 +11,7 @@
 | Campo                          | Dettaglio                              |
 | ------------------------------ | -------------------------------------- |
 | Oggetto dell'appalto           | {{oggetto_appalto}}                    |
-| Importo a base d'asta          | € {{importo_base}} (IVA esclusa)       |
+| Importo a base d'asta          | € {{number:importo_base}} (IVA esclusa)       |
 | Durata contratto               | {{durata_contratto}} mesi              |
 | Luogo di esecuzione            | {{luogo_esecuzione}}                   |
 | Responsabile del Procedimento  | {{responsabile_procedimento}}          |
