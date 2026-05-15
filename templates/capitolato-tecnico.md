@@ -3,7 +3,7 @@
 **Ente Appaltante:** {{ente_appaltante}}  
 **Codice Gara:** {{codice_gara}}  
 **Data pubblicazione:** {{date:data_pubblicazione}}
-ciao
+
 ---
 
 ## 1. Informazioni Generali
