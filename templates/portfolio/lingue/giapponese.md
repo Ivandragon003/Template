@@ -24,14 +24,6 @@
 | プロジェクト全体状況 | {{string:project_overall_status}} |
 | 緊急度 | {{string:urgency_level}} |
 
-### 1.2 関連資料
-
-| ID | 資料名 | バージョン | 担当者 | 状態 |
-| --- | --- | --- | --- | --- |
-| DOC-01 | {{string:document_1_name}} | {{string:document_1_version}} | {{string:document_1_owner}} | {{string:document_1_status}} |
-| DOC-02 | {{string:document_2_name}} | {{string:document_2_version}} | {{string:document_2_owner}} | {{string:document_2_status}} |
-| DOC-03 | {{string:document_3_name}} | {{string:document_3_version}} | {{string:document_3_owner}} | {{string:document_3_status}} |
-
 ---
 
 ## 2. 参加者
