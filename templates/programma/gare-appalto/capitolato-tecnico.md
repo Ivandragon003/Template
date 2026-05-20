@@ -20,26 +20,3 @@
 
 ---
 
-## 2. Requisiti Tecnici Obbligatori
-
-| ID | Requisito | Obbligatorio |
-| -- | --------- | ------------ |
-| RT-01 | Architettura microservizi o a moduli | {{boolean:rt_01_obbligatorio}} |
-| RT-02 | API RESTful con documentazione OpenAPI 3.0 | {{boolean:rt_02_obbligatorio}} |
-| RT-03 | Autenticazione OAuth2 / JWT | {{boolean:rt_03_obbligatorio}} |
-| RT-04 | Database relazionale PostgreSQL ≥ 14 | {{boolean:rt_04_obbligatorio}} |
-| RT-05 | Backup automatico giornaliero | {{boolean:rt_05_obbligatorio}} |
-
----
-
-## 3. Penali Contrattuali
-
-| Inadempienza | Penale | Massimale |
-| ------------ | ------ | --------- |
-| Ritardo consegna milestone | {{percentage:penale_ritardo_milestone}} dell'importo contrattuale al giorno | {{percentage:massimale_ritardo_milestone}} dell'importo |
-| Mancato rispetto SLA critico | {{currency:penale_sla_critico}} per evento | {{percentage:massimale_sla_critico}} dell'importo |
-| Indisponibilità sistema superiore a 4 ore | {{currency:penale_indisponibilita}} per evento | {{percentage:massimale_indisponibilita}} dell'importo |
-
----
-
-_Capitolato redatto da {{string:responsabile_procedimento}} — {{string:ente_appaltante}}_
