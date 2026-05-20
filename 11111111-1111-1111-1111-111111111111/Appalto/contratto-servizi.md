@@ -2,7 +2,7 @@
 
 **N. Contratto:** {{string:numero_contratto}}  
 **Data stipula:** {{date:data_stipula}}  
-**CIG / Codice riferimento:** {{string:codice_riferimento}}
+**CIG / Codice riferimento:** {{string:codice_riferimento}} ciao
 
 ---
 
