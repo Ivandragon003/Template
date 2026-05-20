@@ -5,7 +5,7 @@
 **Data pubblicazione:** {{date:data_pubblicazione}}
 
 ---
-
+fdf
 ## 1. Informazioni Generali
 
 | Campo | Dettaglio |
