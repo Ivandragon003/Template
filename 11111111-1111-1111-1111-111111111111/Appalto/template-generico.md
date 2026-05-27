@@ -1,112 +1,102 @@
-# Project Charter
-
-## Contesto del progetto
-Descrivere il problema/opportunità che motiva il progetto e gli obiettivi di business attesi. Spiegare quali informazioni servono a sponsor e stakeholder per valutare priorità, impatto e urgenza.
-
-{{text:descrizione_progetto}}
-
-
-## Obiettivi del progetto
-Elencare i principali obiettivi del progetto in termini di risultati attesi. Spiegare come questi obiettivi contribuiranno al successo del progetto e aiutino a raggiungere gli obiettivi di business.
-
-{{text:obiettivi_progetto}}
-
-
-## Assunzioni
-Identificare le assunzioni chiave che influenzano il progetto. Queste assunzioni dovrebbero essere considerate come fatti accettati per la pianificazione e l'esecuzione del progetto.
-
-| Assunzione | Descrizione |
-|------------|-------------|
-| {{string:assunzione_1}} | {{text:descrizione_assunzione_1}} |
-| {{string:assunzione_2}} | {{text:descrizione_assunzione_2}} |
-
-
-## Vincoli
-Elencare i vincoli che possono influenzare il progetto. Questi vincoli dovrebbero essere considerati durante la pianificazione e l'esecuzione del progetto.
-
-| Vincolo | Descrizione |
-|---------|-------------|
-| {{string:vincolo_1}} | {{text:descrizione_vincolo_1}} |
-| {{string:vincolo_2}} | {{text:descrizione_vincolo_2}} |
-
-
-## Rischi iniziali
-Identificare i rischi principali che potrebbero influenzare il progetto. Questi rischi dovrebbero essere considerati durante la pianificazione e l'esecuzione del progetto.
-
-| Rischio | Descrizione |
-|---------|-------------|
-| {{string:rischio_1}} | {{text:descrizione_rischio_1}} |
-| {{string:rischio_2}} | {{text:descrizione_rischio_2}} |
-
-
-## Budget preliminare
-Indicare il budget stimato per il progetto. Questo valore dovrebbe essere utilizzato come riferimento durante la pianificazione e l'esecuzione del progetto.
-
-{{currency:budget_stimato_euro}}
-
-
-## Criteri di successo
-Definire i criteri che verranno usati per valutare se il progetto è stato un successo. Questi criteri dovrebbero essere utilizzati durante la pianificazione e l'esecuzione del progetto.
-
-{{text:criteri_di_successo}}
-
-
-## Autorità del project manager
-Descrivere in modo descrittivo i poteri decisionali e i limiti autorizzativi del project manager. Questa sezione aiuta a definire chi può prendere quali decisioni durante il corso del progetto.
-
-{{text:autorita_project_manager}}
-
-
-## Approvazioni finali
-Indicare le persone o entità che devono approvare il progetto prima della sua esecuzione. Queste persone dovrebbero essere identificate e coinvolte nella pianificazione iniziale per garantire l'appoggio necessario.
-
-| Approvazione | Nome approvatore |
-|--------------|-----------------|
-| {{string:approvazione_1}} | {{string:nome_approvatore_1}} |
-| {{string:approvazione_2}} | {{string:nome_approvatore_2}} |
+# Template per Documento di Progetto
 
 ## Titolo e informazioni generali del progetto
-Raccogliere identificativi principali del progetto e riferimenti iniziali.
+Questa sezione raccoglie gli identificativi principali del progetto e i riferimenti necessari per l'avvio formale. I dati permettono a sponsor, project manager e stakeholder di riconoscere in modo univoco il Project Charter.
 Nome progetto: {{string:nome_progetto}}
 Data inizio: {{date:data_inizio}}
 Data fine: {{date:data_fine}}
 
 ## Descrizione del progetto
-Descrivere contesto, problema/opportunita e obiettivo generale del progetto.
-Descrizione progetto: {{text:descrizione_progetto}}
+Descrivere il problema/opportunità che motiva il progetto e gli obiettivi di business attesi. Spiegare quali informazioni servono a sponsor e stakeholder per valutare priorità, impatto e urgenza.
+{{text:descrizione_progetto}}
+
 
 ## Business case o motivazione del progetto
-Spiegare motivazione, valore atteso e priorita organizzativa.
+Spiegare la motivazione organizzativa, il valore atteso e le ragioni che giustificano l'investimento. La sezione deve collegare il progetto agli obiettivi strategici e ai benefici misurabili.
 Business case: {{text:business_case}}
 
+## Obiettivi del progetto
+Definire obiettivi chiari, misurabili e coerenti con il business case. Gli obiettivi guidano la pianificazione e permettono di valutare l'avanzamento progetto.
+| Obiettivo | Descrizione | Metrica | Target |
+|---|---|---|---|
+| {{string:obiettivo_1}} | {{string:descrizione_obiettivo_1}} | {{string:metrica_obiettivo_1}} | {{string:target_obiettivo_1}} |
+
 ## Benefici attesi
-Descrivere benefici attesi per organizzazione e stakeholder.
-Benefici attesi: {{text:benefici_attesi}}
+Descrivere i benefici attesi per l'organizzazione e per gli stakeholder principali. La sezione aiuta a collegare deliverable, risultati e creazione di valore.
+| Beneficio | Indicatore | Valore atteso |
+|---|---|---|
+| {{string:beneficio_1}} | {{string:indicatore_beneficio_1}} | {{string:valore_atteso_beneficio_1}} |
 
 ## Ambito preliminare del progetto
-Descrivere confini e perimetro iniziale del progetto.
-Ambito preliminare: {{text:ambito_preliminare}}
+Descrivere il perimetro iniziale del progetto, includendo confini, principali inclusioni ed esclusioni. L'ambito preliminare riduce ambiguità e supporta le decisioni di pianificazione.
+| Incluso | Escluso | Note |
+|---|---|---|
+| {{string:ambito_incluso_1}} | {{string:ambito_escluso_1}} | {{string:note_ambito_1}} |
 
 ## Deliverable principali
-Elencare i principali risultati attesi del progetto.
-Deliverable principali: {{text:deliverable_principali}}
+Elencare i principali risultati attesi e il criterio con cui saranno accettati. La tabella rende tracciabile il collegamento tra ambito preliminare, responsabilita e approvazione formale.
+| Deliverable | Descrizione | Criterio di accettazione |
+|---|---|---|
+| {{string:deliverable_1}} | {{string:descrizione_deliverable_1}} | {{string:criterio_accettazione_deliverable_1}} |
 
 ## Milestone principali
-Elencare le milestone principali e i checkpoint di avanzamento.
-Milestone principali: {{text:milestone_principali}}
+Indicare le tappe principali usate per monitorare l'avanzamento progetto e prendere decisioni di controllo. Ogni milestone deve rappresentare un punto verificabile del percorso.
+| Milestone | Data prevista | Risultato atteso |
+|---|---|---|
+| {{string:milestone_1}} | {{date:data_milestone_1}} | {{string:risultato_milestone_1}} |
 
 ## Stakeholder principali
-Indicare stakeholder principali coinvolti nel progetto.
-Stakeholder principali: {{text:stakeholder_principali}}
+Identificare gli stakeholder principali, il loro ruolo e l'interesse rispetto al progetto. Questa informazione supporta comunicazione, coinvolgimento e gestione delle aspettative.
+| Stakeholder | Ruolo | Interesse |
+|---|---|---|
+| {{string:stakeholder_1}} | {{string:ruolo_stakeholder_1}} | {{string:interesse_stakeholder_1}} |
 
 ## Ruoli e responsabilita iniziali
-Definire ruoli iniziali e responsabilita operative.
-Ruoli e responsabilita iniziali: {{text:ruoli_responsabilita_iniziali}}
+Definire ruoli e responsabilita iniziali per chiarire chi decide, chi esegue e chi approva. La tabella rende esplicito il modello operativo nella fase di avvio.
+| Ruolo | Responsabilita | Referente |
+|---|---|---|
+| {{string:ruolo_1}} | {{string:responsabilita_ruolo_1}} | {{string:referente_ruolo_1}} |
 
 ## Requisiti di alto livello
-Descrivere requisiti di alto livello per indirizzare analisi e pianificazione.
-Requisiti di alto livello: {{text:requisiti_alto_livello}}
+Raccogliere i requisiti di alto livello che indirizzano analisi, soluzione e pianificazione. La tabella permette di distinguere priorita e contenuto dei requisiti prima del dettaglio tecnico.
+| Requisito | Descrizione | Priorita |
+|---|---|---|
+| {{string:requisito_1}} | {{string:descrizione_requisito_1}} | {{string:priorita_requisito_1}} |
+
+## Assunzioni
+Documentare le ipotesi considerate vere al momento dell'approvazione iniziale. Le assunzioni devono essere verificabili e utili a interpretare pianificazione, rischi e vincoli.
+Assunzioni principali: {{text:assunzioni_principali}}
+
+## Vincoli
+Descrivere i vincoli che limitano l'implementazione del progetto, come risorse finanziarie, temporali o tecnologiche. Includere anche un piano di gestione dei vincoli.
+{{text:vincoli}}
+
+
+## Rischi iniziali
+Elencare i principali rischi associati al progetto, indicando le probabilità di avvenuta e gli eventuali impatti negativi. Includere anche un piano di gestione dei rischi.
+| Tipo di rischio | Descrizione | Probabilità (%) | Impatto (€) |
+|-----------------|------------|----------------|-------------|
+| {{string:tipo_rischio_1}} | {{string:descrizione_rischio_1}} | {{integer:probabilita_1}} | {{number:impatto_1}} |
+
+
+## Budget preliminare
+Documentare la stima economica iniziale e le fonti di finanziamento note. Il budget preliminare non sostituisce il piano dei costi, ma fornisce un riferimento per l'approvazione formale.
+| Voce di costo | Importo stimato | Note |
+|---|---|---|
+| {{string:voce_costo_1}} | {{currency:importo_stimato_1}} | {{string:note_budget_1}} |
+
+## Criteri di successo
+Definire criteri misurabili per valutare se il progetto ha raggiunto gli esiti attesi. I criteri devono essere comprensibili per sponsor, project manager e stakeholder.
+Criteri di successo: {{text:criteri_successo}}
 
 ## Autorita del Project Manager
-Descrivere limiti decisionali e autonomia del project manager.
-Autorita concessa: {{text:autorita_project_manager}}
+Descrivere poteri decisionali, limiti di autonomia e responsabilità assegnate al Project Manager. La sezione chiarisce quali decisioni possono essere prese senza ulteriori escalation.
+| Ambito decisionale | Limite/autonomia | Note |
+|---|---|---|
+| {{string:ambito_decisionale_pm_1}} | {{string:limite_autonomia_pm_1}} | {{string:note_autorita_pm_1}} |
+
+## Approvazioni finali
+Raccogliere le approvazioni formali necessarie per autorizzare il Project Charter. La tabella documenta chi approva, con quale ruolo e in quale data.
+| Nome | Ruolo | Data approvazione | Firma/Conferma |
+|---|---|---|---|
+| {{string:nome_approvatore_1}} | {{string:ruolo_approvatore_1}} | {{date:data_approvazione_1}} | {{string:firma_conferma_1}} |
