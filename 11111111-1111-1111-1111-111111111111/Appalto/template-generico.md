@@ -1,102 +1,88 @@
-# Template per Documento di Progetto
+# Charter del Progetto
 
-## Titolo e informazioni generali del progetto
-Questa sezione raccoglie gli identificativi principali del progetto e i riferimenti necessari per l'avvio formale. I dati permettono a sponsor, project manager e stakeholder di riconoscere in modo univoco il Project Charter.
-Nome progetto: {{string:nome_progetto}}
-Data inizio: {{date:data_inizio}}
-Data fine: {{date:data_fine}}
+## Titolo e Informazioni Generali del Progetto
+Descrizione: Questa sezione deve identificare univocamente il progetto e fornire dati essenziali per il suo contesto. Includi il nome del progetto, la data di inizio e fine previste, il nome del project manager e l’organizzazione responsabile. Queste informazioni sono fondamentali per la gestione e il monitoraggio del progetto, permettendo di riconoscerne l’ambito e le responsabilità iniziali.
 
-## Descrizione del progetto
-Descrivere il problema/opportunità che motiva il progetto e gli obiettivi di business attesi. Spiegare quali informazioni servono a sponsor e stakeholder per valutare priorità, impatto e urgenza.
-{{text:descrizione_progetto}}
+| Campo | Valore |
+|-------|--------|
+| {{string:nome_progetto:120:true}} | {{date:data_inizio:10:true}} |
+| {{date:data_fine:10:true}} | {{string:nome_project_manager:80:true}} |
+| {{string:organizzazione_responsabile:120:true}} | |
 
+## Descrizione del Progetto
+Descrizione: Questa sezione deve fornire una panoramica dettagliata del progetto, spiegando il suo scopo, le attività principali e il contesto in cui si svilupperà. È essenziale descrivere il valore del progetto, le sue caratteristiche principali e come si relaziona con gli obiettivi aziendali. Questa descrizione deve essere chiara e concisa, ma sufficientemente dettagliata per guidare la pianificazione iniziale.
 
-## Business case o motivazione del progetto
-Spiegare la motivazione organizzativa, il valore atteso e le ragioni che giustificano l'investimento. La sezione deve collegare il progetto agli obiettivi strategici e ai benefici misurabili.
-Business case: {{text:business_case}}
+{{text:descrizione_progetto:1000:true}}
 
-## Obiettivi del progetto
-Definire obiettivi chiari, misurabili e coerenti con il business case. Gli obiettivi guidano la pianificazione e permettono di valutare l'avanzamento progetto.
-| Obiettivo | Descrizione | Metrica | Target |
-|---|---|---|---|
-| {{string:obiettivo_1}} | {{string:descrizione_obiettivo_1}} | {{string:metrica_obiettivo_1}} | {{string:target_obiettivo_1}} |
+## Business Case o Motivazione del Progetto
+Descrizione: Questa sezione deve spiegare perché il progetto è necessario, evidenziando i benefici attesi, le opportunità perseguite e le motivazioni che hanno portato alla sua iniziativa. È importante collegare il progetto agli obiettivi strategici dell’organizzazione e giustificare la sua realizzazione in termini di valore economico, sociale o operativo. Questo elemento è cruciale per ottenere il supporto necessario per il finanziamento e la realizzazione del progetto.
 
-## Benefici attesi
-Descrivere i benefici attesi per l'organizzazione e per gli stakeholder principali. La sezione aiuta a collegare deliverable, risultati e creazione di valore.
-| Beneficio | Indicatore | Valore atteso |
-|---|---|---|
-| {{string:beneficio_1}} | {{string:indicatore_beneficio_1}} | {{string:valore_atteso_beneficio_1}} |
+{{text:business_case:1000:true}}
 
-## Ambito preliminare del progetto
-Descrivere il perimetro iniziale del progetto, includendo confini, principali inclusioni ed esclusioni. L'ambito preliminare riduce ambiguità e supporta le decisioni di pianificazione.
-| Incluso | Escluso | Note |
-|---|---|---|
-| {{string:ambito_incluso_1}} | {{string:ambito_escluso_1}} | {{string:note_ambito_1}} |
+## Obiettivi del Progetto
+Descrizione: Questa sezione deve elencare gli obiettivi principali del progetto, definiti in modo specifico, misurabile e realizzabile. Gli obiettivi devono essere allineati con il business case e il valore del progetto. È importante che siano formulati in termini di risultati tangibili, come la consegna di un prodotto, la riduzione di un costo o l’incremento di un servizio. Questi obiettivi saranno la base per la pianificazione e il controllo del progetto.
 
-## Deliverable principali
-Elencare i principali risultati attesi e il criterio con cui saranno accettati. La tabella rende tracciabile il collegamento tra ambito preliminare, responsabilita e approvazione formale.
-| Deliverable | Descrizione | Criterio di accettazione |
-|---|---|---|
-| {{string:deliverable_1}} | {{string:descrizione_deliverable_1}} | {{string:criterio_accettazione_deliverable_1}} |
+| {{list:obiettivi:100:true:Obiettivi,Obiettivo 1,Obiettivo 2,Obiettivo 3}} |
 
-## Milestone principali
-Indicare le tappe principali usate per monitorare l'avanzamento progetto e prendere decisioni di controllo. Ogni milestone deve rappresentare un punto verificabile del percorso.
-| Milestone | Data prevista | Risultato atteso |
-|---|---|---|
-| {{string:milestone_1}} | {{date:data_milestone_1}} | {{string:risultato_milestone_1}} |
+## Benefici Attesi
+Descrizione: Questa sezione deve elencare i benefici previsti dal progetto, sia quantitativi che qualitativi. I benefici devono essere misurabili e collegati agli obiettivi del progetto. È importante specificare come questi benefici saranno verificati e quando saranno conseguiti. Questa descrizione aiuta a valutare l’efficacia del progetto e a giustificare le risorse impiegate.
 
-## Stakeholder principali
-Identificare gli stakeholder principali, il loro ruolo e l'interesse rispetto al progetto. Questa informazione supporta comunicazione, coinvolgimento e gestione delle aspettative.
-| Stakeholder | Ruolo | Interesse |
-|---|---|---|
-| {{string:stakeholder_1}} | {{string:ruolo_stakeholder_1}} | {{string:interesse_stakeholder_1}} |
+| {{list:benefici_attesi:100:true:Benefici,Beneficio 1,Beneficio 2,Beneficio 3}} |
 
-## Ruoli e responsabilita iniziali
-Definire ruoli e responsabilita iniziali per chiarire chi decide, chi esegue e chi approva. La tabella rende esplicito il modello operativo nella fase di avvio.
-| Ruolo | Responsabilita | Referente |
-|---|---|---|
-| {{string:ruolo_1}} | {{string:responsabilita_ruolo_1}} | {{string:referente_ruolo_1}} |
+## Ambito Prelimineare del Progetto
+Descrizione: Questa sezione deve definire l’ambito del progetto in modo chiaro e limitato, indicando cosa è incluso e cosa è escluso. L’ambito deve essere specifico e misurabile, evitando ambiguità che potrebbero portare a variazioni non pianificate. È importante che l’ambito sia allineato con gli obiettivi e il business case, e che venga definito in modo da facilitare la gestione e il controllo del progetto.
 
-## Requisiti di alto livello
-Raccogliere i requisiti di alto livello che indirizzano analisi, soluzione e pianificazione. La tabella permette di distinguere priorita e contenuto dei requisiti prima del dettaglio tecnico.
-| Requisito | Descrizione | Priorita |
-|---|---|---|
-| {{string:requisito_1}} | {{string:descrizione_requisito_1}} | {{string:priorita_requisito_1}} |
+{{text:ambito_preliminare:1000:true}}
+
+## Deliverable Principali
+Descrizione: Questa sezione deve elencare i prodotti, i servizi o i risultati principali che il progetto dovrà consegnare. I deliverable devono essere descritti in modo dettagliato, indicando il loro contenuto, la loro utilità e il momento previsto di consegna. Questa descrizione è fondamentale per il piano di gestione dei deliverable e per il controllo della qualità.
+
+| {{list:deliverable_principali:100:true:Deliverable,Deliverable 1,Deliverable 2,Deliverable 3}} |
+
+## Milestone Principali
+Descrizione: Questa sezione deve identificare i punti chiave del progetto, ovvero i momenti significativi che segneranno la progressione del progetto. Le milestone devono essere definite in modo chiaro, indicando la data prevista e la descrizione del raggiungimento. Queste milestone saranno utili per il monitoraggio e il controllo del progetto, permettendo di valutare il progresso e la conformità al piano.
+
+| {{list:milestone_principali:100:true:Milestone,Milestone 1,Milestone 2,Milestone 3}} |
+
+## Stakeholder Principali
+Descrizione: Questa sezione deve elencare i principali stakeholder coinvolti nel progetto, indicando il loro ruolo, le loro esigenze e il loro livello di coinvolgimento. È importante riconoscere chi ha un interesse diretto o indiretto nel progetto e come il progetto influenzerà o sarà influenzato da questi stakeholder. Questa analisi aiuta a gestire le aspettative e a facilitare la comunicazione.
+
+| {{list:stakeholder_principali:100:true:Stakeholder,Stakeholder 1,Stakeholder 2,Stakeholder 3}} |
+
+## Ruoli e Responsabilità Iniziali
+Descrizione: Questa sezione deve definire i ruoli chiave del progetto e le relative responsabilità, indicando chi è responsabile di ogni attività o decisione. È importante che i ruoli siano chiari e che le responsabilità siano assegnate in modo da garantire la gestione efficiente del progetto. Questa descrizione è fondamentale per la pianificazione e la gestione delle risorse.
+
+| {{list:ruoli_responsabilita:100:true:Ruolo,Ruolo 1,Ruolo 2,Ruolo 3}} |
+
+## Requisiti di Alto Livello
+Descrizione: Questa sezione deve elencare i requisiti principali del progetto, che possono includere vincoli, risorse, tempi o standard di qualità. I requisiti devono essere definiti in modo specifico e misurabile, in modo da guidare la pianificazione e il controllo del progetto. Questi requisiti saranno la base per la definizione del piano di gestione del progetto.
+
+| {{list:requisiti_alto_livello:100:true:Requisito,Requisito 1,Requisito 2,Requisito 3}} |
 
 ## Assunzioni
-Documentare le ipotesi considerate vere al momento dell'approvazione iniziale. Le assunzioni devono essere verificabili e utili a interpretare pianificazione, rischi e vincoli.
-Assunzioni principali: {{text:assunzioni_principali}}
+Descrizione: Questa sezione deve elencare le assunzioni fatte durante la definizione del progetto, ovvero le condizioni o informazioni considerate vere e che potrebbero influenzare il successo del progetto. È importante documentare queste assunzioni per identificare potenziali rischi e per gestire le incertezze durante la realizzazione del progetto.
+
+| {{list:assunzioni:100:true:Assunzione,Assunzione 1,Assunzione 2,Assunzione 3}} |
 
 ## Vincoli
-Descrivere i vincoli che limitano l'implementazione del progetto, come risorse finanziarie, temporali o tecnologiche. Includere anche un piano di gestione dei vincoli.
-{{text:vincoli}}
+Descrizione: Questa sezione deve elencare i vincoli che influenzano il progetto, come limiti di tempo, budget, risorse o tecnologie. I vincoli devono essere definiti in modo chiaro e specifico, in modo da guidare la pianificazione e il controllo del progetto. Questi vincoli saranno la base per la gestione delle risorse e per la risoluzione di eventuali problemi.
 
+| {{list:vincoli:100:true:Vincolo,Vincolo 1,Vincolo 2,Vincolo 3}} |
 
-## Rischi iniziali
-Elencare i principali rischi associati al progetto, indicando le probabilità di avvenuta e gli eventuali impatti negativi. Includere anche un piano di gestione dei rischi.
-| Tipo di rischio | Descrizione | Probabilità (%) | Impatto (€) |
-|-----------------|------------|----------------|-------------|
-| {{string:tipo_rischio_1}} | {{string:descrizione_rischio_1}} | {{integer:probabilita_1}} | {{number:impatto_1}} |
+## Rischi Iniziali
+Descrizione: Questa sezione deve identificare i rischi principali del progetto, ovvero le situazioni potenzialmente negative che potrebbero influenzare il successo del progetto. I rischi devono essere descritti in modo dettagliato, indicando la loro probabilità, l’impatto e le misure di mitigazione previste. Questa analisi è fondamentale per la gestione dei rischi e per la preparazione di piani di risposta.
 
+| {{list:rischi_iniziali:100:true:Rischio,Rischio 1,Rischio 2,Rischio 3}} |
 
-## Budget preliminare
-Documentare la stima economica iniziale e le fonti di finanziamento note. Il budget preliminare non sostituisce il piano dei costi, ma fornisce un riferimento per l'approvazione formale.
-| Voce di costo | Importo stimato | Note |
-|---|---|---|
-| {{string:voce_costo_1}} | {{currency:importo_stimato_1}} | {{string:note_budget_1}} |
+## Budget Preliminare
+Descrizione: Questa sezione deve indicare il budget previsto per il progetto, comprensivo di costi per risorse, materiali, strumenti e altre spese. Il budget deve essere definito in modo dettagliato, indicando le categorie di spesa e le stime di costo. Questa informazione è cruciale per la pianificazione finanziaria e per il controllo dei costi.
 
-## Criteri di successo
-Definire criteri misurabili per valutare se il progetto ha raggiunto gli esiti attesi. I criteri devono essere comprensibili per sponsor, project manager e stakeholder.
-Criteri di successo: {{text:criteri_successo}}
+{{currency:budget_preliminare:10:true}}
 
-## Autorita del Project Manager
-Descrivere poteri decisionali, limiti di autonomia e responsabilità assegnate al Project Manager. La sezione chiarisce quali decisioni possono essere prese senza ulteriori escalation.
-| Ambito decisionale | Limite/autonomia | Note |
-|---|---|---|
-| {{string:ambito_decisionale_pm_1}} | {{string:limite_autonomia_pm_1}} | {{string:note_autorita_pm_1}} |
+## Critérii di Successo
+Descrizione: Questa sezione deve definire i criteri di successo del progetto, ovvero i parametri o i risultati che saranno utilizzati per valutare se il progetto ha raggiunto i suoi obiettivi. I criteri di successo devono essere specifici, misurabili e allineati con gli obiettivi e il business case del progetto. Questi criteri saranno la base per il monitoraggio e il controllo del progetto.
 
-## Approvazioni finali
-Raccogliere le approvazioni formali necessarie per autorizzare il Project Charter. La tabella documenta chi approva, con quale ruolo e in quale data.
-| Nome | Ruolo | Data approvazione | Firma/Conferma |
-|---|---|---|---|
-| {{string:nome_approvatore_1}} | {{string:ruolo_approvatore_1}} | {{date:data_approvazione_1}} | {{string:firma_conferma_1}} |
+{{text:criteri_successo:1000:true}}
+
+## Autorità del Project Manager
+Descrizione: Questa sezione deve definire l’autorità del project manager nel contesto del progetto, indicando i limiti e le responsabilità assegnate. È importante specificare quali decisioni possono essere prese autonomamente e quali richiedono approvazione esterna. Questa descrizione è fondamentale per la gestione del progetto e{{text:autorita_project_manager:1000:true}}
