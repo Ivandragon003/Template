@@ -1,11 +1,6 @@
-{{date:data_stipula:10:true}}
-{{currency:importo_totale:20:true}}
-{{email:email_referente_cliente:150:true}}
-{{phone:telefono_cliente:30:true}}
-{{string:codice_fiscale_cliente:30:true}}
-{{string:nome_cliente:100:true}}
-{{string:numero_contratto:50:true}}
-{{string:ragione_sociale_cliente:150:true}}
-{{boolean:deliverable_codice_sorgente:5:true}}
-{{list:foro_competente:120:true:fori,Milano,Roma,Napoli}}
-{{text:descrizione_servizio:1000:true}}
+{{string:data_stipula:100:true}}
+{{string:importo_totale:100:true}}
+{{string:email_referente_cliente:100:true}}
+{{string:telefono_cliente:100:true}}
+{{text:codice_fiscale_cliente:100:true}}
+{{boolean:nome_cliente:5:true}}
