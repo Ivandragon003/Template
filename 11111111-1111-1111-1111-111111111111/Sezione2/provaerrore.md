@@ -1,6 +1,5 @@
-{{string:data_stipula:100:true}}
-{{string:importo_totale:100:true}}
-{{string:email_referente_cliente:100:true}}
-{{string:telefono_cliente:100:true}}
-{{text:codice_fiscale_cliente:100:true}}
-{{boolean:nome_cliente:5:true}}
+
+| Ruolo Approvatore | Nome e Cognome | Firma/Stato | Data |
+| :--- | :--- | :--- | :--- |
+| Sponsor | {{string:appr_sponsor:100:true}} | {{list:stato_sponsor:20:true:Stato,Approvato,Rifiutato,Approvato con Riserve}} | {{date:data_appr_sponsor:10:true}} |
+| Stakeholder Chiave | {{string:appr_sh:100:false}} | {{list:stato_sh:20:false:Stato,Approvato,Rifiutato,Approvato con Riserve}} | {{date:data_appr_sh:10:false}} |
