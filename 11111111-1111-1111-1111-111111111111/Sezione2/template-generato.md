@@ -12,7 +12,7 @@
 
 ## Descrizione del progetto
 
-{{text:descrizione_progetto:1:true:Descrivere il problema o l'opportunità che motiva il progetto, gli obiettivi di business attesi e le informazioni utili a sponsor e stakeholder per valutare priorità, impatto e urgenza}}
+**ciao** {{text:descrizione_progetto:1:true:Descrivere il problema o l'opportunità che motiva il progetto, gli obiettivi di business attesi e le informazioni utili a sponsor e stakeholder per valutare priorità, impatto e urgenza}}
 
 ## Business case o motivazione del progetto
 
