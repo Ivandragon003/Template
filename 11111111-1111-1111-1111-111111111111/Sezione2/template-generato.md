@@ -12,7 +12,7 @@
 
 ## Descrizione del progetto
 
-{{text:descrizione_progetto:-1:true:Descrivere il problema o l'opportunità che motiva il progetto, gli obiettivi di business attesi e le informazioni utili a sponsor e stakeholder per valutare priorità, impatto e urgenza}}
+{{text:descrizione_progetto:1:true:Descrivere il problema o l'opportunità che motiva il progetto, gli obiettivi di business attesi e le informazioni utili a sponsor e stakeholder per valutare priorità, impatto e urgenza}}
 
 ## Business case o motivazione del progetto
 
@@ -27,7 +27,7 @@
 {{text:benefici_attesi:-1:true:Descrivere i benefici che il progetto porterà all'organizzazione, sia a livello operativo che strategico}}
 
 ## Ambito preliminare del progetto
-{{table:fsf:40:true:fsf|string|fsf;fdff|string|fdff;fdfds|currency|fdfds;fdsf|boolean|fdsf}}
+
 {{text:ambito_preliminare:-1:true:Definire l'ambito generale del progetto, includendo linee guida, limiti iniziali, contesto e aspettative per gli stakeholder}}
 
 ## Deliverable principali
@@ -70,3 +70,14 @@
 
 {{text:note_budget:-1:false:Inserire eventuali note sul budget, sui costi previsti o sulle risorse economiche necessarie}}
 
+## Criteri di successo
+
+{{table:criteri_successo:-1:true:Criterio|string|criterio;Misura|string|misura;Valore target|string|valore_target}}
+
+## Autorità del project manager
+
+{{text:autorita_project_manager:-1:true:Descrivere i poteri decisionali, i limiti autorizzativi e il livello di autonomia del Project Manager}}
+
+## Approvazioni finali
+
+{{table:approvazioni_finali:-1:true:Nome|string|nome;Ruolo|string|ruolo;Data approvazione|date|data_approvazione}}
