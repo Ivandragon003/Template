@@ -1,106 +1,104 @@
-# Scheda di Consulenza e Proposta Bancaria
+# Creative Spark
+Agenzia Pubblicitaria e Marketing
+Trasformiamo le Tue Idee in Storie Straordinarie
+Milano, Italy
+{{email:info_email:120:true}}
+{{phone:telefono:30:true}}
+{{string:sito_web:120:true}}
 
-## 1. Informazioni generali della pratica
+## Chi Siamo
+Creative Spark è un'agenzia pubblicitaria e di marketing con sede a Milano, fondata nel {{integer:anno_fondazione:4:true}}. Specializzata nella creazione di campagne innovative, identità visive memorabili e strategie di comunicazione digitale, lavoriamo con brand affermati e startup promettenti in vari settori: tech, moda, food, luxury e servizi finanziari.
+Il nostro team è composto da {{integer:numero_professionisti:2:true}} professionisti appassionati: creativi, strategist, designer, sviluppatori e specialisti di marketing digitale che lavorano insieme per superare le aspettative dei nostri clienti e generare risultati tangibili e misurabili.
 
-| Campo | Valore |
-| --- | --- |
-| Codice pratica | {{string:codice_pratica:20:true}} |
-| Data consulenza | {{date:data_consulenza:10:true}} |
-| Agenzia | {{string:agenzia:100:true}} |
-| Consulente bancario | {{string:consulente_bancario:100:true}} |
-| Tipologia richiesta | {{string:tipologia_richiesta:100:true}} |
-| Canale di contatto | {{string:canale_contatto:50:true}} |
+## La Nostra Missione
+Creare campagne pubblicitarie che non solo attingono l'attenzione, ma generano un impatto reale sul business. Vogliamo trasformare le sfide di marketing in opportunità di crescita e posizionare i nostri clienti come leader nel loro settore.
 
-## 2. Dati anagrafici del cliente
+## I Nostri Valori
+• Innovazione - Cerchiamo sempre nuovi modi per raccontare storie e raggiungere audience
+• Trasparenza - Comunicazione chiara con i nostri clienti sui risultati e sui processi
+• Eccellenza - Qualità suprema in ogni progetto senza compromessi
+• Collaborazione - Lavoriamo come un'estensione del tuo team interno
 
-| Campo | Valore |
-| --- | --- |
-| Nome e cognome | {{string:nome_cognome:100:true}} |
-| Codice fiscale | {{string:codice_fiscale:20:true}} |
-| Data e luogo di nascita | {{string:data_luogo_nascita:50:true}} |
-| Indirizzo di residenza | {{string:indirizzo_residenza:150:true}} |
-| Telefono | {{phone:telefono:30:true}} |
-| Email | {{email:email:120:true}} |
-| Documento identificativo | {{string:documento_identificativo:50:true}} |
-| Stato civile | {{string:stato_civile:30:true}} |
-| Componenti nucleo familiare | {{integer:componenti_nucleo_familiare:2:true}} |
+## I Numeri che Parlano
+{{integer:numero_progetti:3:true}}+
+Progetti
+{{integer:clienti_soddisfatti:3:true}}
+Clienti Soddisfatti
+{{integer:numero_team_member:2:true}}
+Team Member
+{{integer:anni_esperienza:2:true}}+
+Anni di Esperienza
 
-## 3. Profilo economico e professionale
+## I Nostri Servizi
+Offriamo una gamma completa di soluzioni di marketing e pubblicità, personalizzate in base alle esigenze specifiche del tuo business. Ogni servizio è integrato in una strategia globale per massimizzare l'impatto.
 
-| Voce | Valore dichiarato | Note |
-| --- | --- | --- |
-| Professione | {{string:professione:100:true}} | {{text:note_professione:200:false}} |
-| Datore di lavoro | {{string:datore_di_lavoro:100:true}} | {{text:note_datore_lavoro:200:false}} |
-| Reddito annuo lordo | {{currency:reddito_annuo_lordo:12:true}} | {{text:note_reddito:200:false}} |
-| Patrimonio finanziario stimato | {{currency:patrimonio_finanziario_stimato:12:true}} | {{text:note_patrimonio:200:false}} |
-| Impegni finanziari mensili | {{currency:impegni_finanziari_mensili:12:true}} | {{text:note_impegni:200:false}} |
-| Entrate ricorrenti mensili | {{currency:entrate_ricorrenti_mensili:12:true}} | {{text:note_entrate:200:false}} |
+### Strategia e Consulenza
+Sviluppiamo strategie di marketing basate su dati e insights di mercato. Analizziamo il tuo business, i tuoi competitor e il target audience per definire un piano d'azione vincente. Audit, benchmark competitivi e definizione di KPI.
 
-## 4. Esigenze dichiarate dal cliente
-- {{text:esigenza_1:300:true}}
-- {{text:esigenza_2:300:true}}
-- {{text:esigenza_3:300:true}}
-- {{text:esigenza_4:300:true}}
-- {{text:esigenza_5:300:true}}
+### Design e Branding
+Creiamo identità visive forti e memorabili. Dal logo design al brand guidelines, packaging, collateral materials. Garantiamo coerenza e impatto visivo su tutti i touchpoint del brand.
 
-## 5. Prodotti e servizi proposti
+### Advertising Digitale
+Gestione di campagne su Google Ads, Facebook, Instagram, LinkedIn e TikTok. Strategie PPC, remarketing, audience targeting. Ottimizzazione dei budget per massimizzare il ROI e raggiungere i risultati desiderati.
 
-| Prodotto/servizio | Caratteristiche principali | Costo/Importo | Motivazione proposta |
-| --- | --- | --- | --- |
-| {{string:prodotto_1:100:true}} | {{text:caratteristiche_1:300:true}} | {{string:costo_1:30:true}} | {{text:motivazione_1:200:true}} |
-| {{string:prodotto_2:100:true}} | {{text:caratteristiche_2:300:true}} | {{string:costo_2:30:true}} | {{text:motivazione_2:200:true}} |
-| {{string:prodotto_3:100:true}} | {{text:caratteristiche_3:300:true}} | {{string:costo_3:30:true}} | {{text:motivazione_3:200:true}} |
-| {{string:prodotto_4:100:true}} | {{text:caratteristiche_4:300:true}} | {{string:costo_4:30:true}} | {{text:motivazione_4:200:true}} |
-| {{string:prodotto_5:100:true}} | {{text:caratteristiche_5:300:true}} | {{string:costo_5:30:true}} | {{text:motivazione_5:200:true}} |
+### Content Marketing & Copywriting
+Produzione di contenuti di qualità: articoli blog, whitepaper, video, infografiche, podcast e social media content. Creiamo storie che risuonano con il tuo audience e guidano le conversioni.
 
-## 6. Profilo di rischio e adeguatezza preliminare
+### Web Design e Sviluppo
+Siti web responsivi, moderni e ottimizzati per le conversioni. Da landing page a e-commerce completi, sviluppiamo soluzioni web che combinano estetica e performance. SEO-friendly, veloce, secure.
 
-| Voce | Valore |
-| --- | --- |
-| Orizzonte temporale prevalente | {{string:orizzonte_temporale_prevalente:30:true}} |
-| Propensione al rischio dichiarata | {{string:propensione_al_rischio_dichiarata:30:true}} |
-| Esperienza finanziaria | {{string:esperienza_finanziaria:100:true}} |
-| Obiettivo principale | {{string:obiettivo_principale:150:true}} |
-| Capacità di sostenere perdite | {{string:capacita_sostenere_perdite:100:true}} |
-| Esito valutazione preliminare | {{string:esito_valutazione_preliminare:150:true}} |
+### Social Media Management
+Gestione completa dei tuoi canali social. Pianificazione editoriale, creazione di contenuti, community management, moderazione, crisis management e analisi dettagliate delle performance.
 
-## 7. Condizioni economiche riepilogative
+## Pacchetti e Pricing
 
-| Voce | Importo/condizione | Periodicità | Note |
-| --- | --- | --- | --- |
-| Canone conto | {{currency:canone_conto:12:true}} | {{string:periodicita_canone_conto:20:true}} | {{text:note_canone_conto:200:false}} |
-| Bonifici SEPA online | {{currency:bonifici_sepa_online:12:true}} | {{string:periodicita_bonifici_sepa:20:true}} | {{text:note_bonifici_sepa:200:false}} |
-| Prelievi ATM gruppo | {{currency:prelievi_atm_gruppo:12:true}} | {{string:periodicita_prelievi_atm:20:true}} | {{text:note_prelievi_atm:200:false}} |
-| Carta di credito | {{currency:carta_di_credito:12:true}} | {{string:periodicita_carta_credito:20:true}} | {{text:note_carta_credito:200:false}} |
-| Deposito vincolato | {{percentage:deposito_vincolato:5:true}} | {{string:periodicita_deposito_vincolato:20:true}} | {{text:note_deposito_vincolato:200:false}} |
-| PAC fondi | {{currency:pac_fondi:12:true}} | {{string:periodicita_pac_fondi:20:true}} | {{text:note_pac_fondi:200:false}} |
+### Pacchetto Startup
+{{currency:prezzo_startup:10:true}}/mese
+• Strategia di base
+• Social Media (3 canali)
+• 8 post mensili
+• Reporting mensile
 
-## 8. Documentazione acquisita
+### Pacchetto Premium
+{{currency:prezzo_premium:10:true}}/mese
+• Strategia completa
+• Social + Advertising
+• Content production 2x settimana
+• Reporting + strategia settimanale
 
-| Documento | Stato | Data acquisizione | Note |
-| --- | --- | --- | --- |
-| Documento identità | {{string:stato_doc_identita:30:true}} | {{date:data_acq_doc_identita:10:true}} | {{text:note_doc_identita:200:false}} |
-| Codice fiscale | {{string:stato_doc_cf:30:true}} | {{date:data_acq_doc_cf:10:true}} | {{text:note_doc_cf:200:false}} |
-| Busta paga recente | {{string:stato_doc_busta:30:true}} | {{date:data_acq_doc_busta:10:true}} | {{text:note_doc_busta:200:false}} |
-| Informativa privacy | {{string:stato_doc_privacy:30:true}} | {{date:data_acq_doc_privacy:10:true}} | {{text:note_doc_privacy:200:false}} |
-| Questionario adeguatezza | {{string:stato_doc_questionario:30:true}} | {{date:data_acq_doc_questionario:10:true}} | {{text:note_doc_questionario:200:false}} |
+## Portfolio Selezionato
+Alcuni dei nostri progetti di successo che hanno generato risultati straordinari:
+{{string:progetto_1:120:true}} {{string:progetto_2:120:true}} {{string:progetto_3:120:true}}
 
-## 9. Dichiarazioni, privacy e consensi
-- [{{boolean:dichiarazione_dati_corretti:5:true}}] Il cliente dichiara che i dati forniti sono corretti e aggiornati.
-- [{{boolean:autorizza_trattamento_dati:5:true}}] Il cliente autorizza il trattamento dei dati per finalità contrattuali e obblighi normativi.
-- [{{boolean:consenso_commerciale:5:true}}] Il cliente presta consenso al trattamento per finalità commerciali e promozionali.
-- [{{boolean:invio_comunicazioni_digitali:5:true}}] Il cliente richiede invio comunicazioni in formato digitale.
-- [{{boolean:ricevuto_documento_costi:5:true}}] Il cliente conferma di aver ricevuto il documento informativo sui costi.
+## Il Nostro Team
+Un team multidisciplinare con competenze complementari e una passione condivisa per l'innovazione e i risultati.
 
-## 10. Note del consulente
-{{text:note_consulente:500:true}}
+### Composizione del Team
+• {{integer:creative_director_designer:2:true}} Creative Directors e Designer Grafici (vari specializzazioni)
+• {{integer:digital_marketing_specialist:2:true}} Digital Marketing Specialist (SEM, SEO, Analytics)
+• {{integer:sviluppatori_web:2:true}} Sviluppatori Web (Frontend React, Backend Node.js, Full-stack)
+• {{integer:copywriter_content_creator:2:true}} Copywriter e Content Creator (Blog, Video, Podcast)
+• {{integer:social_media_manager:2:true}} Social Media Manager e Community Manager
+• {{integer:strategist_senior_account_manager:2:true}} Strategist Senior e Account Manager
+• {{integer:project_manager_operations:2:true}} Project Manager e Operations
 
-## 11. Firme
+## Contattaci per una Consultation
+Pronto a trasformare il tuo brand? Mettiamoci in contatto per una consulenza iniziale gratuita. Analizzeremo i tuoi obiettivi e proporremo una strategia personalizzata.
+Indirizzo {{string:indirizzo:120:true}}
+Telefono {{phone:telefono_contatto:30:true}}
+Email {{email:email_contatto:120:true}}
+Orari {{string:orari:50:true}}
+Seguici sui Social
+Instagram: {{string:instagram_handle:50:true}} • Facebook: {{string:facebook_page:100:true}} LinkedIn: {{string:linkedin_page:100:true}} • YouTube: {{string:youtube_channel:100:true}}
 
-| Ruolo | Nome | Data | Firma |
-| --- | --- | --- | --- |
-| Cliente | {{string:nome_cliente:100:true}} | {{date:data_firma_cliente:10:true}} | {{string:firma_cliente:100:true}} |
-| Consulente | {{string:nome_consulente:100:true}} | {{date:data_firma_consulente:10:true}} | {{string:firma_consulente:100:true}} |
-| Responsabile agenzia | {{string:nome_responsabile:100:true}} | {{date:data_firma_responsabile:10:true}} | {{string:firma_responsabile:100:true}} |
+## Come Funziona il Nostro Processo
+1. Consulenza iniziale gratuita (30 min) per capire i tuoi obiettivi
+2. Analisi audit del tuo brand e mercato
+3. Proposta strategica personalizzata con timeline e budget
+4. Kick-off del progetto e inizio implementazione
+5. Monitoraggio costante, reportistica e ottimizzazione continua
 
-<!-- END_TEMPLATE -->
+{{text:citazione_team:500:true}}
+— {{string:fonte_citazione:120:true}}
+
+Pronti a crescere insieme? Contattaci oggi.
