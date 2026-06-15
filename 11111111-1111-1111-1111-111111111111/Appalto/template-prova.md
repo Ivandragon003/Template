@@ -2,7 +2,7 @@
 Agenzia Pubblicitaria e Marketing
 Trasformiamo le Tue Idee in Storie Straordinarie
 Milano, Italy
-{{email:info_email:120:true}}
+{{email:info_email:120:false}}
 {{phone:telefono:30:true}}
 {{string:sito_web:120:true}}
 
