@@ -1,25 +1,12 @@
-# DG {{string:dg_name:120:true}}
-# Unit {{string:unit_name:120:true}}
-# Outsourcing Plan 
-# {{string:project_name:120:true}}
-# Date: {{date:date:10:true}}
-# Doc. Version: {{string:version:10:true}}
-# Template Version: 3.1
 
-This template is based on PM² V3.1 
-For the latest version of this template please visit the PM² Portal 
-Document Control Information 
 
-| Settings | Value |
-| --- | --- |
-| Document Title: | {{string:document_title:120:true}} |
-| Project Title: | {{string:project_title:120:true}} |
-| Document Author: | {{string:document_author:120:true}} |
-| Project Owner: | {{string:project_owner:120:true}} |
-| Project Manager: | {{string:project_manager:120:true}} |
-| Doc. Version: | {{string:doc_version:10:true}} |
-| Sensitivity: | {{string:sensitivity:50:true}} |
-| Date: | {{date:date_2:10:true}} |
-Document Approver(s) and Reviewer(s): 
-NOTE: All Approvers are required. Records of each approver must be maintained. All Reviewers in the list are considered required unless explicitly listed as Optional.
+## Monitoring
 
+|  | Monitoring  Checks |  | Date: | {{date:monitoring_date:10:true:Data della fase di monitoraggio.}} |  |
+| --- | --- | --- | --- | --- | --- |
+| % of Compliance | {{percentage:monitoring_compliance:5:true:Percentuale di conformità del monitoraggio.}} | {{percentage:monitoring_compliance_2:5:true:Percentuale di conformità del monitoraggio.}} |  |  |  |
+| # | Description | Answer | Score | Comments |  |
+| 1 | Delays/budget overruns : have the key stakeholders been informed? | {{boolean:stakeholders_informed_delays:5:true}} |  | {{text:stakeholders_informed_delays_comments:500:true:Giustificazione per la risposta fornita.}} |  |
+| 2 | Delays/budget overruns : has a Project Steering Committee (PSC) been organised? | {{boolean:psc_organised_delays:5:true}} |  |  | {{boolean:psc_organised_delays_yes:5:true}} |
+| 3 | Business implementation : have regular updates been given to the Project Owner (PO) and relevant stakeholders? | {{boolean:regular_updates_given:5:true}} |  |  | {{boolean:regular_updates_given_yes_partially:5:true}} |
+|  | Total score for compliance | {{integer:monitoring_total_score:3:true}} | {{boolean:monitoring_total_score_no:5:true}} |  | {{boolean:monitoring_total_score_na:5:true}} |
